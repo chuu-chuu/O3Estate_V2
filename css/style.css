@@ -1,0 +1,54 @@
+* ,
+h3{
+    color: #fff;
+}
+
+@font-face {
+    font-family: Work_Sans_Regular;
+    src: url(../fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: TekoFont-Medium;
+    src: url(../fonts/Teko/Teko-Medium.ttf);
+}
+@font-face {
+    font-family: TekoFont-Regular;
+    src: url(../fonts/Teko/Teko-Regular.ttf);
+}
+/* video, .uk-position-cover {
+    position: fixed;
+} */
+body {
+    font-family: Work_Sans_Regular;
+    font-size: 18px;
+    line-height: 27px;
+}
+h3 {
+    font-size: 36px;
+    font-family: TekoFont-Regular;
+    margin: 0;
+    line-height: 1;
+    font-weight: 100;
+    
+}
+h2 {
+    
+    font-family: TekoFont-Medium;
+    font-size: 56px;
+    margin: 0;
+    line-height: 1;
+    background: -webkit-linear-gradient(#D4AF37, #F4DB76, #B07908, #D4AF37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.coming-soon-content {
+    text-align: center;
+}
+
+.line {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logo {
+    margin-bottom: 25px;
+}
